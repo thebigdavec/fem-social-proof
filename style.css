@@ -49,7 +49,7 @@ body::after {
     margin: 0 auto;
     width: 90%;
     max-width: 1440px;
-    padding: 5rem 0 5rem;
+    padding: 5rem 0;
 }
 
 header {
@@ -90,8 +90,15 @@ header p {
     font-size: 0.8rem;
 }
 
-.rating .stars img {
+
+/* .rating .stars img {
     margin: 0rem 0.1rem 0.7rem;
+} */
+
+.rating .stars {
+    font-size: 1.5rem;
+    color: #ee9446;
+    letter-spacing: 0.33rem;
 }
 
 .testimonials {
@@ -162,6 +169,7 @@ header p {
         display: grid;
         grid-template-columns: auto auto;
         gap: 10%;
+        padding: 8rem 0;
     }
     header {
         text-align: left;
@@ -176,6 +184,7 @@ header p {
     .rating {
         width: 80%;
         display: flex;
+        align-items: center;
         padding: 1.5rem 2rem;
         height: min-content;
         gap: 2rem;
