@@ -83,7 +83,7 @@ header p {
 .rating {
     background-color: var(--clr-light);
     text-align: center;
-    padding: 1.2rem 0;
+    padding: 0.5rem 0 1rem;
     font-weight: 700;
     color: var(--clr-dark);
     border-radius: 8px;
@@ -99,6 +99,7 @@ header p {
     font-size: 1.5rem;
     color: #ee9446;
     letter-spacing: 0.33rem;
+    line-height: 1.6;
 }
 
 .testimonials {
@@ -185,7 +186,7 @@ header p {
         width: 80%;
         display: flex;
         align-items: center;
-        padding: 1.5rem 2rem;
+        padding: 0.75rem 2rem;
         height: min-content;
         gap: 2rem;
     }
