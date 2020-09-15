@@ -91,7 +91,7 @@ header p {
 }
 
 .rating .stars svg {
-    margin: 0 0.2rem 0.1rem;
+    margin: 0.5rem 0.2rem 0.7rem;
 }
 
 .testimonials {
@@ -178,13 +178,12 @@ header p {
         width: 80%;
         display: flex;
         align-items: center;
-        padding: 0.75rem 2rem;
+        padding: 1rem 2rem;
         height: min-content;
         gap: 2rem;
     }
-    .rating .stars img,
     .rating .stars svg {
-        margin-bottom: 0;
+        margin: 0 0.25rem 0;
     }
     .rating:nth-child(2) {
         margin-left: 3rem;
