@@ -102,6 +102,10 @@ header p {
     line-height: 1.6;
 }
 
+.rating .stars svg {
+    margin: 0 0.2rem 0.1rem;
+}
+
 .testimonials {
     display: grid;
     gap: 1rem;
@@ -190,7 +194,8 @@ header p {
         height: min-content;
         gap: 2rem;
     }
-    .rating .stars img {
+    .rating .stars img,
+    .rating .stars svg {
         margin-bottom: 0;
     }
     .rating:nth-child(2) {
