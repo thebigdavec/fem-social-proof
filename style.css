@@ -90,18 +90,6 @@ header p {
     font-size: 0.8rem;
 }
 
-
-/* .rating .stars img {
-    margin: 0rem 0.1rem 0.7rem;
-} */
-
-.rating .stars {
-    font-size: 1.5rem;
-    color: #ee9446;
-    letter-spacing: 0.33rem;
-    line-height: 1.6;
-}
-
 .rating .stars svg {
     margin: 0 0.2rem 0.1rem;
 }
@@ -214,6 +202,7 @@ header p {
     }
     .testimonial {
         height: min-content;
+        width: 30%;
     }
     .testimonial:nth-child(2) {
         margin-top: 1rem;
